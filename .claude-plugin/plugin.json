@@ -22,5 +22,9 @@
     "songwriting",
     "rhyme",
     "dutch"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/smrht/songtekst-schrijven-plugin/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/smrht/songtekst-schrijven-plugin/issues",
+  "documentationUrl": "https://github.com/smrht/songtekst-schrijven-plugin#readme",
+  "termsOfServiceUrl": "https://github.com/smrht/songtekst-schrijven-plugin/blob/main/LICENSE"
 }
