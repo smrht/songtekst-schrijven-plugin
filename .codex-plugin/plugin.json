@@ -2,7 +2,10 @@
   "name": "songtekst-schrijven",
   "version": "1.0.0",
   "description": "Write original song lyrics for personal occasions, mainly in Dutch, and check syllables, rhyme scheme and expected sung length with a local script.",
-  "author": {"name": "Samautomation", "url": "https://muziekmakenmetai.nl"},
+  "author": {
+    "name": "Samautomation",
+    "url": "https://muziekmakenmetai.nl"
+  },
   "homepage": "https://github.com/smrht/songtekst-schrijven-plugin",
   "repository": "https://github.com/smrht/songtekst-schrijven-plugin",
   "license": "MIT",
@@ -13,7 +16,10 @@
     "longDescription": "Write original song lyrics for birthdays, weddings, retirements, farewells, pets or teams, mainly in Dutch. The skill gathers the personal details, picks a song structure, writes lines of matching length with rhymes that work when sung, and checks the result with a local Python script: syllables per line, rhyme scheme per section, chorus consistency and an estimate of the sung length based on 86 finished songs. It never uses lyrics of existing songs or imitates named artists. No account, server or network access.",
     "developerName": "Samautomation",
     "category": "Productivity",
-    "capabilities": ["Write lyrics", "Check syllables and rhyme"],
+    "capabilities": [
+      "Write lyrics",
+      "Check syllables and rhyme"
+    ],
     "websiteURL": "https://github.com/smrht/songtekst-schrijven-plugin",
     "supportURL": "https://github.com/smrht/songtekst-schrijven-plugin/issues",
     "privacyPolicyURL": "https://github.com/smrht/songtekst-schrijven-plugin/blob/main/PRIVACY.md",
@@ -26,5 +32,13 @@
     "brandColor": "#11664F",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/icon.png"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/songtekst-schrijven/SKILL.md",
+      "publication": {
+        "release_notes": "First release: write singable song lyrics for personal occasions, mainly in Dutch, with an offline check for syllables, rhyme scheme, chorus consistency and sung length."
+      }
+    }
   }
 }
