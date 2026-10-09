@@ -1,0 +1,26 @@
+{
+  "name": "songtekst-schrijven",
+  "version": "1.0.0",
+  "description": "Write original song lyrics for birthdays, weddings, retirements and other personal occasions, mainly in Dutch. Checks syllables per line, rhyme scheme and chorus consistency with a local Python script, and estimates the sung length. No account, server or network access.",
+  "author": {
+    "name": "Samautomation",
+    "url": "https://muziekmakenmetai.nl"
+  },
+  "homepage": "https://github.com/smrht/songtekst-schrijven-plugin",
+  "repository": "https://github.com/smrht/songtekst-schrijven-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "displayName": "Songtekst schrijven",
+  "icon": "assets/icon.png",
+  "keywords": [
+    "songtekst",
+    "songtekst schrijven",
+    "liedje schrijven",
+    "lied schrijven",
+    "verjaardagslied",
+    "lyrics",
+    "songwriting",
+    "rhyme",
+    "dutch"
+  ]
+}
