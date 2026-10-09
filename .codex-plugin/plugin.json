@@ -15,7 +15,7 @@
     "shortDescription": "Write singable song lyrics",
     "longDescription": "Write original song lyrics for birthdays, weddings, retirements, farewells, pets or teams, mainly in Dutch. The skill gathers the personal details, picks a song structure, writes lines of matching length with rhymes that work when sung, and checks the result with a local Python script: syllables per line, rhyme scheme per section, chorus consistency and an estimate of the sung length based on 86 finished songs. It never uses lyrics of existing songs or imitates named artists. No account, server or network access.",
     "developerName": "Samautomation",
-    "category": "Productivity",
+    "category": "Creativity",
     "capabilities": [
       "Write lyrics",
       "Check syllables and rhyme"
